@@ -1,0 +1,12 @@
+xf86-video-intel
+lib32-mesa
+xorg
+i3-wm
+i3status
+dmenu
+rxvt-unicode
+ttf-droid
+wget
+diffutils
+base-devel
+zsh
