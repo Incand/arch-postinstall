@@ -23,5 +23,8 @@ echo "Installing NetworkManager..."
 echo "Installing zsh shell..."
 . zsh/install.sh
 
+echo "Installing alsa sound driver and pulseaudio..."
+. alsa/install.sh
+
 echo "Installing packages from requirements.txt..."
 pacman -Sq --needed - < requirements.txt
