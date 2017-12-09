@@ -26,5 +26,5 @@ echo "Installing zsh shell..."
 echo "Installing alsa sound driver and pulseaudio..."
 . alsa/install.sh
 
-echo "Installing packages from requirements.txt..."
-pacman -Sq --needed - < requirements.txt
+echo "Installing misc packages"
+sudo pacman -Sq --needed - < pacman-deps
