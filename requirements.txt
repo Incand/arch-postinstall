@@ -10,3 +10,8 @@ wget
 diffutils
 base-devel
 zsh
+networkmanager
+gnome-keyring
+network-manager-applet
+networkmanager-openvpn
+ssh
