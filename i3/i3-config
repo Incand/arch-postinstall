@@ -249,8 +249,9 @@ bindsym $mod+9 exec --no-startup-id blurlock
 #exec --no-startup-id hsetroot -solid "#000000"
 #exec --no-startup-id unclutter -idle 1
 #exec --no-startup-id manjaro-hello
+exec --no-startup-id setxkbmap de
 exec --no-startup-id gnome-keyring-daemon
-exec --no-startup-id nm-applet
+exec --no-startup-id nm-applet --no-agent
 #exec --no-startup-id xfce4-power-manager
 #exec --no-startup-id /home/armin/bin/i3-fix.sh
 # exec --no-startup-id pamac-tray
