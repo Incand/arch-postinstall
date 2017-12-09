@@ -2,7 +2,7 @@
 
 cd alsa
 
-sudo pacman -S - < pacman-deps
-yaourt -S - < yaourt-deps
+sudo pacman -Sq - < pacman-deps
+yaourt -Sq - < yaourt-deps
 
 cd "$DIR"
