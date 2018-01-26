@@ -18,3 +18,6 @@ cp "$DIR"/zsh/zshrc ~/.zshrc
 chsh -s /bin/zsh
 
 cd "$DIR"
+
+yaourt -S - < yaourt-deps
+aurtab
